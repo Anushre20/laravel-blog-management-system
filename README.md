@@ -29,6 +29,18 @@ The project allows admins to manage blogs dynamically while users can browse and
 
 ---
 
+## How to Use
+
+ - Open the Admin Dashboard from the Admin button on the homepage.
+ - Add a new blog with image, category, and content.
+ - Blogs can also be edited or deleted from the admin panel.
+ - Return to the homepage to view all blogs.
+ - Click Read More to view complete blog details.
+ - Use live search and category filters to filter blogs dynamically.
+ - Categories are generated dynamically based on blogs added by the admin.
+
+---
+
 ## Setup Steps
 
 ```bash

@@ -1,0 +1,143 @@
+body{
+    background:#f5f7fb;
+    font-family:Inter,sans-serif;
+}
+
+.navbar-custom{
+    background:linear-gradient(90deg,#4f46e5,#7c3aed);
+    padding:16px 0;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link{
+    color:white !important;
+    font-weight:600;
+}
+
+.hero-section{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    padding:100px 0;
+    border-radius:24px;
+    margin-bottom:50px;
+}
+
+.hero-section h1{
+    font-size:56px;
+    font-weight:700;
+}
+
+.hero-section p{
+    font-size:18px;
+    opacity:.9;
+}
+
+.filter-box{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    margin-bottom:40px;
+}
+
+.blog-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+}
+
+.blog-card:hover{
+    transform:translateY(-8px);
+}
+
+.blog-card img{
+    height:240px;
+    object-fit:cover;
+}
+
+.blog-card .card-body{
+    padding:25px;
+}
+
+.blog-card h4{
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.blog-category{
+    background:#eef2ff;
+    color:#4f46e5;
+    padding:6px 14px;
+    border-radius:50px;
+    display:inline-block;
+    font-size:13px;
+    margin-bottom:15px;
+}
+
+.read-btn{
+    background:#111827;
+    border:none;
+    border-radius:12px;
+    padding:12px;
+    transition:.3s;
+}
+
+.read-btn:hover{
+    background:#4f46e5;
+}
+
+.footer{
+    background:#111827;
+    color:white;
+    padding:50px 0;
+    margin-top:80px;
+}
+
+.admin-header{
+    background:linear-gradient(90deg,#4f46e5,#7c3aed);
+    color:white;
+    padding:25px;
+    border-radius:18px;
+    margin-bottom:30px;
+}
+
+.admin-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.table{
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.btn-primary{
+    background:#4f46e5;
+    border:none;
+}
+
+.btn-success{
+    background:#16a34a;
+    border:none;
+}
+
+.btn-warning{
+    border:none;
+}
+
+.btn-danger{
+    border:none;
+}
+
+.form-control{
+    border-radius:12px;
+    padding:12px;
+}
+
+textarea{
+    resize:none;
+}
